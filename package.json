@@ -9,19 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@midnight-ntwrk/compact-runtime": "^0.7.0",
+    "@midnight-ntwrk/dapp-connector-api": "^1.2.3",
+    "@midnight-ntwrk/ledger": "^3.0.6",
+    "@midnight-ntwrk/midnight-js-fetch-zk-config-provider": "^0.2.5",
+    "@midnight-ntwrk/midnight-js-http-client-proof-provider": "^0.2.5",
+    "@midnight-ntwrk/midnight-js-indexer-public-data-provider": "^0.2.5",
+    "@midnight-ntwrk/midnight-js-level-private-state-provider": "^0.2.5",
+    "@midnight-ntwrk/midnight-js-types": "^0.2.5",
+    "@midnight-ntwrk/wallet-api": "^3.5.0",
+    "@midnight-ntwrk/zswap": "^3.0.6",
+    "cross-fetch": "^4.1.0",
+    "fp-ts": "^2.16.9",
+    "next": "15.2.4",
+    "pino": "^9.6.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "rxjs": "^7.8.2",
+    "semver": "^7.7.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
